@@ -4,12 +4,13 @@ import "./App.css";
 let marked = require("marked");
 class App extends Component {
   state = {
-    markdown: placeholder,
+    markdown: this.placeholder,
   };
 
   handlechange = (markdown) => {
     this.setState({ markdown });
   };
+
 
   render() {
     let { markdown } = this.state;
@@ -37,6 +38,7 @@ class App extends Component {
       </div>
     );
   }
+  
 }
 const placeholder = `# Welcome to my React Markdown Previewer!
 

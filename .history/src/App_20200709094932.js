@@ -11,6 +11,7 @@ class App extends Component {
     this.setState({ markdown });
   };
 
+
   render() {
     let { markdown } = this.state;
     return (
@@ -37,6 +38,7 @@ class App extends Component {
       </div>
     );
   }
+  
 }
 const placeholder = `# Welcome to my React Markdown Previewer!
 
