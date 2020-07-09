@@ -48,7 +48,7 @@ const placeholder = `# Welcome to my React Markdown Previewer!
   ![React Logo w/ Text](https://goo.gl/Umyytc)
   `;
 
-let marked = require("marked");
+  let marked = require("marked");
 class App extends Component {
   state = {
     markdown: placeholder,
